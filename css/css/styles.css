@@ -1,0 +1,85 @@
+/* Shutterbugg Bootstrap project */
+/*
+Miles C. Stover	
+12/4/19
+
+*/
+body {
+	background-color: ivory;
+}
+
+p {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5em;
+}
+
+.main h1 {
+	font-family: 'Bangers', cursive;
+	color: yellow;
+	text-shadow: 2px 2px orange;
+	transition: text-shadow 2s;
+	transition: font-size 1s;
+	font-size: 65px;
+	text-align: center;
+}
+ 
+.main h1:hover {
+	text-shadow: lime 5px 5px 5px;
+	font-size: 75px;
+}
+
+.main h2 {
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+}
+
+.btn {
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+	background-color: lime;
+	border-radius: 25px;
+}
+
+.row {
+	padding-top: 30px;
+}
+
+.section h1 {
+	font-family: 'Bangers', cursive;
+}
+
+h1 {
+	text-shadow: 2px 2px gray;	
+}
+
+li {
+	font-family: 'Sigmar One', cursive;
+	text-shadow: 1px 1px gray;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.main {
+	background-image: url("../images/intro.jpg");
+	background-image: fixed;
+	height: 600px;
+	background-size: cover;
+}
+
+#store {
+	text-align: center;
+	border-bottom: 2px solid darkred;
+}
+
+.footer h1 {
+	font-family: 'Bangers', cursive;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
